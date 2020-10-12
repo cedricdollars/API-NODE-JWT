@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 exports.connect = () => {
-    mongoose.connect("mongodb://<user>:<mdp>@ds259117.mlab.com:59117/db-user", {
+    mongoose.connect("mongodb+srv://admin:admin@cluster0-mdhiu.mongodb.net/<users>?retryWrites=true&w=majority", {
         useNewUrlParser: true,
         useCreateIndex: true,
         useUnifiedTopology: true,
